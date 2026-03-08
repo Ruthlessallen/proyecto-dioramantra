@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dioramantra </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="finalweb.css">
+    
+</head>
+<body>
+    <header>
+    <div class="titulo-pagina">
+        <h1>DIORAMANTRA</h1>
+        
+    </div> 
+    <h3>TU PÁGINA DE DIORAMAS DE CONFIANZA</h3>
+        
+        <nav>
+            <ul>
+                <li><a href="https://www.amazon.es/Kits-modelismo-dioramas-Hogar-cocina/s?keywords=Kits+de+modelismo+de+dioramas&me=A1AT7YVPFBWXBL&rh=n%3A599391031&c=ts&ts_id=599391031">Packs</a></li>
+                <li><a href="https://enminiatura.es/es/30-miniaturas-varias-escala-112">Objetos</a></li>
+                <li><a href="https://acercamadera.com/categoria-producto/catalogo/maderas-para-el-modelismo/">Materiales</a></li>
+                <li><a href="https://www.faberplast.net/es/tapas-cubreproductos---maquetas-metacrilato?srsltid=AfmBOoqYtDP5tA8E9dEGmruzMPZxhkMy2OSe2h0UVhF35Jt3ECOAaxx9">Coberturas</a></li>
+                <li><a href="#formulario-busqueda"> Buscador</a></li>
+                <li><a href="#diorama-casa">¡PROMO!</a></li>
+                <li><a href="#informacion">Contacto</a></li>
+                <li><a href="https://www.youtube.com/watch?v=ZbNqBTW3uDA"> Más...</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <div class="contenedor-hero">
+                <div class="lema-hero">
+                    <h3>¡Aprovecha este descuento por Navidad!</h3>
+                </div>
+                <div class="boton-hero">
+                    <button> + info.</button>
+                </div>
+            </div>
+            <div class="image-hero">
+                <img src="descuento_25.jpg">
+            </div>
+        </div>
+        <div id="principal">
+            <form id="formulario-busqueda">
+                <div class="grupo-nombre">
+                    <label>Nombre del diorama:</label>
+                    <input type="text" name="nombre" placeholder="Ej.: Booknook">
+                </div>
+                <div class="grupo-marca">
+                    <label>Marca:</label>
+                    <select name="marca">
+                        <option value="">Todas las marcas</option>
+                        <option value="robotime">Robotime</option>
+                        <option value="cuteroom">CuteRoom</option>
+                        <option value="rolife">Rolife</option>
+                        <option value="keranova">Keranova</option>
+                        <option value="cutebee">CuteBee</option>
+                    </select>
+                </div>
+                <div class="grupo-montaje">
+                    <label>Tipo de montaje:</label>
+                    <select name="montaje">
+                        <option value="">Cualquiera</option>
+                        <option value="encaje">Encaje de madera (sin pegamento)</option>
+                        <option value="pegado">Maqueta para pegar</option>
+                        <option value="miniatura">Miniatura clásica</option>
+                        <option value="diy">DIY</option>
+                    </select>
+                </div>
+                <div class="grupo-tamaño">
+                    <label>Tamaño máximo (cm):</label>
+                    <div class="dimensiones">
+                        <input type="number" name="largo" placeholder="Largo" min="0">
+                        <span>x</span>
+                        <input type="number" name="ancho" placeholder="Ancho" min="0">
+                        <span>x</span>
+                        <input type="number" name="alto" placeholder="Alto" min="0">
+                    </div>
+                </div>
+                <div class="grupo-horas-montaje">
+                    <label>Horas aprox. de montaje:</label>
+                    <div class="horas-montaje">
+                        <input type="number" name="horas" min="0" max="200" placeholder="Ej.: 15">
+                    </div>
+                </div>
+                <div class="grupo-precio">
+                    <label>Precio máximo:</label>
+                    <input type="range" name="precio" min="0" max="150" step="5">
+                </div>
+                <button type="submit" class="boton-filtrar">Aplicar Filtros</button>
+            </form>
+
+            <div id="grid-ventas">
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama_encaje.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Booknook Librería. </li>
+                            <li class="marca-diorama">Marca: Robotime </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 30*15*30 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 30 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <span class="precio-diorama">45€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-diy.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Casa de ensueño. </li>
+                            <li class="marca-diorama">Marca: Rolife </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 40*30*35 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 50 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <span class="precio-diorama">40€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-keranova.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Adosado natural. </li>
+                            <li class="marca-diorama">Marca: Keranova </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 50*30*35</li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 100 horas </li>
+                        </ul>
+                    </div> 
+                    <div class="compra-container">
+                        <span class="precio-diorama">80€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>         
+
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-kit.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Casa simple. </li>
+                            <li class="marca-diorama">Marca: Keranova </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 30*20*25 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 50 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <span class="precio-diorama">50€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-himym.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Pub McLaren's  </li>
+                            <li class="marca-diorama">Marca: Rolife </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 40*20*15 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 110 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <span class="precio-diorama">119€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-vlc.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Booknook: Valencia </li>
+                            <li class="marca-diorama">Marca: CuteBee </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 15*25*25 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 60 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <span class="precio-diorama">65€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+
+                <div class="venta">
+                    <div class="imagen">
+                        <img src="diorama-jardin.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Booknook: Jardín. </li>
+                            <li class="marca-diorama">Marca: Robolife </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 15*30*40</li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 25 horas </li>
+                        </ul>
+                    </div> 
+                    <div class="compra-container">
+                        <img src="25-desc-aplicado.jpg">
+                        <span class="precio-diorama">29€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>         
+
+                <div class="venta">
+                    <div class="imagen" id="diorama-casa">
+                        <img src="diorama-casa.jpg">
+                    </div>
+                    <div class="propiedades">
+                        <ul>
+                            <li class="nombre-diorama">Nombre del diorama: Cocina de ensueño. </li>
+                            <li class="marca-diorama">Marca: CuteBee </li>
+                            <li class="tamaño-diorama">Tamaño(cm*cm*cm): 25*20*30 </li>
+                            <li class="duracion-diorama">Duración de construcción (en horas): 80 horas </li>
+                        </ul>
+                    </div>
+                    <div class="compra-container">
+                        <img src="25-desc-aplicado.jpg">
+                        <span class="precio-diorama">29€</span>
+                        <div class="compra">Comprar</div>
+                    </div>
+                </div>
+            </div> 
+
+    </main>
+    <footer>
+        <div id="final">
+            <div class="informacion" id="informacion">
+                <div class="contacto">
+                    <h2 class="nombre-contacto"> Contacto:</h2> 
+                    <p>Teléfono: 612345678 <br>
+                    Email: Dioramantra@gmail.com <br>
+                    Dirección: Avenida Piruleta, 123. 46020.<br>
+                    Valencia, España.</p>
+                </div>
+                <div class="redes-sociales">
+                    <p>Síguenos en nuestras redes sociales:</p>
+                        <ul>
+                            <li><a href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a href="https://x.com/?lang=es">X (Twitter)</a></li>
+                            <li><a href="https://www.facebook.com/?locale=es_ES">Facebook</a></li>
+                        </ul>
+                </div>
+                <div class="legal">
+                    <p class="condiciones"><a href="https://textos-legales.edgartamarit.com/plantilla-condiciones-generales-venta-tienda-online/">Términos y condiciones de compra</a></p>
+                    <p class="privacidad"><a href="https://politicadeprivacidadplantilla.com/">Política de privacidad</a></p>
+                    <p class="cookies"><a href="https://www.cookiebot.com/es/es-cookie-policy/?trc_gcmp_id=21436235486&trc_gag_id=164171479837&trc_gad_id=705230567679&utm_source=google&utm_medium=cpc&utm_term=ejemplo%20politica%20de%20cookies&utm_campaign=cb_src_es_spa_generic_bof_cmp&utm_content=es_exact_cokie_policy&campaign_id=21436235486&adset_id=164171479837&ad_id=705230567679&matchtype=e&utm_device=c&gad_source=1&gad_campaignid=21436235486&gbraid=0AAAAABYXPmXEDtGe0y-NWUH53PRLXw5RM&gclid=Cj0KCQiAyP3KBhD9ARIsAAJLnnZD_WJOl3VFDuYbzP5ckakmCBC5Zk4eqhx-UIv9_4XlSBX6pBviiaIaAl7xEALw_wcB">Política de cookies</a></p>
+                    <p class="copyright">©2025 Dioramantra - Todos los derechos reservados</p>
+                </div>
+            </div>
+            <div id="formulario-footer">
+                <h4>¿Necesitas algo más?</h4>
+                <h5> Escríbenos y tendrás respuesta en menos de 24h.</h5>
+                <form>
+                    <label for="nombre">Nombre:</label> 
+                    <input type="text" id="f-nombre" placeholder="Nombre" required>
+                    <label for="email">Email:</label> 
+                    <input type="email" id="f-email" placeholder="Email" required>
+                    <label for="comentario">Comentario:</label> 
+                    <textarea id="comentario" placeholder="Deja tu comentario aquí..." rows="4" required></textarea>
+                        <button type="submit" class="boton-enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
